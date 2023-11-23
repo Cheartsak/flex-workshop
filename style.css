@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  border: 3px solid purple;
+  padding: 20px;
+  margin: 10px;
+}
+.page {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.page p {
+  background-color: plum;
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.page .content {
+  background-color: white;
+  flex: 3;
+}
+.keyword {
+  display: flex;
+}
+label {
+  padding: 10px;
+}
+
+input {
+  flex: 4;
+}
+button {
+  flex: 1;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+li {
+  list-style: none;
+  background-color: plum;
+  padding: 5px;
+}
+.problem-4 {
+  text-align: center;
+}
+main {
+  display: flex;
+}
+header {
+  background-color: darkorange;
+  padding: 10px;
+}
+.aside-left {
+  background-color: lightsalmon;
+  flex: 1;
+  padding: 10px;
+}
+.aside-right {
+  background-color: palevioletred;
+  flex: 1;
+  padding: 10px;
+}
+section {
+  background-color: deepskyblue;
+  flex: 4;
+  text-align: justify;
+  padding: 10px;
+}
+footer {
+  background-color: darkseagreen;
+  padding: 10px;
+}
+@media screen and (max-width: 720px) {
+  .aside-left {
+    display: none;
+  }
+  .aside-right {
+    display: none;
+  }
+}
+.problem-5 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: deepskyblue;
+}
+.problem-5 li {
+  background-color: unset;
+}
+@media screen and (max-width: 960px) {
+  .problem-5 {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 768px) {
+  .problem-5 ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+}
