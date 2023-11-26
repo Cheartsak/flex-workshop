@@ -9,63 +9,93 @@
 </head>
 
 <body>
-    <div class="page">
-        <p>This is my header</p>
-        <p class="content">This is my content</p>
-        <p>This is my header</p>
-    </div>
-    <div class="keyword">
-        <label for="keyword">Keywords</label>
-        <input type="text" name="keyword" id="keyword">
-        <button>Submit</button>
-    </div>
-    <div>
-        <ul>
-            <li>Potato</li>
-            <li>Sprout tomato</li>
-            <li>Gumbo beet greens</li>
-            <li>corn soko</li>
-            <li>endive gumbo gourd</li>
-            <li>Parsley shallot courgette tatsoi</li>
-            <li>pea sprouts fava bean</li>
-            <li>collard greens</li>
-            <li>dandelion okra wakame</li>
-            <li>tomato</li>
-        </ul>
-    </div>
-    <div class="problem-4">
-        <header>
-            <p>Header</p>
-        </header>
-        <main>
-            <aside class="aside-left">
-                <p>Aside 1</p>
-            </aside>
-            <section>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias fugit voluptatibus omnis eum eos.
-                    Temporibus laborum totam quisquam ad? Distinctio maxime est autem fuga voluptate animi, sunt
-                    veritatis
-                    explicabo vero?</p>
-            </section>
-            <aside class="aside-right">
-                <p>Aside 2</p>
-            </aside>
-        </main>
-        <footer>
-            <p>Footer</p>
-        </footer>
-    </div>
-    <div class="problem-5">
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Product</li>
-            <li>Contact</li>
-        </ul>
-    </div>
-    <div>
-        <p>Test Git push to GitHub</p>
-    </div>
+    <header>
+        <h1>My Shop</h1>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search by keyword">
+            <button>Search</button>
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li class="navlist"><a href="#" class="navlist">Home</a></li>
+                <li class="navlist"><a href="#" class="navlist">About</a></li>
+                <li class="navlist"><a href="#" class="navlist">Product</a></li>
+                <li class="navlist"><a href="#" class="navlist">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>CLOTHING</h2>
+            <div class="selection">
+                <div class="option">
+                    <label for="filter">Filter by</label>
+                    <select name="filter" id="filter">
+                        <option value="all items">All items</option>
+                        <option value="top">Tops</option>
+                        <option value="outerwear">Outerwear</option>
+                        <option value="bottom">Bottom</option>
+                    </select>
+                </div>
+                <div class="option">
+                    <label for="sort">Sort by</label>
+                    <select name="sort" id="sort">
+                        <option value="featured">Featured</option>
+                        <option value="name">Name</option>
+                        <option value="price">Price</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <br>
+        <div class="product">
+            <div class="item">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467543/item/goods_03_467543.jpg?width=750"
+                    alt="T-shirt">
+                <h3>T-shirt</h3>
+                <p>฿ 390</p>
+            </div>
+            <div class="item">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/456779/item/goods_68_456779.jpg?width=750"
+                    alt="Polo shirt">
+                <h3>Polo shirt</h3>
+                <p>฿ 790</p>
+            </div>
+            <div class="item">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/449631/item/goods_69_449631.jpg?width=750"
+                    alt="Jacket">
+                <h3>Jacket</h3>
+                <p>฿ 1990</p>
+            </div>
+            <div class="item">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/451298/item/goods_55_451298.jpg?width=750"
+                    alt="Casual shirt">
+                <h3>Casual shirt</h3>
+                <p>฿ 790</p>
+            </div>
+            <div class="item">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/464823/item/goods_69_464823.jpg?width=750"
+                    alt="Shorts">
+                <h3>Shorts</h3>
+                <p>฿ 790</p>
+            </div>
+            <div class="item">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461701/item/goods_07_461701.jpg?width=750"
+                    alt="Jeans">
+                <h3>Jeans</h3>
+                <p>฿ 1490</p>
+            </div>
+            <div class="item">
+                <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/458725/item/goods_35_458725.jpg?width=750"
+                    alt="Casual pants">
+                <h3>Casual pants</h3>
+                <p>฿ 1490</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="emoji">&copy; &reg; &#129333 &#128150 &#129321 &#128077</p>
+    </footer>
 </body>
 
 </html>
